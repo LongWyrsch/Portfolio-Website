@@ -1,0 +1,83 @@
+
+main {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    min-height: calc(100vh - 140px);
+}
+
+/* //////////////////////////////////////////////// */
+/* WIREFRMING ICON */
+
+figure {
+    width: 20%;
+    margin: 20px 50px;
+    /* border: black 1px solid; */
+}
+ 
+.icon > img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* //////////////////////////////////////////////// */
+/* INTRO */
+
+#intro {
+    width: 50%;
+    margin: 20px 30px;
+    padding: 0;
+    font-size: 32px;
+    /* border: black 1px solid; */
+}
+
+#intro p {
+    margin: 0;
+}
+
+/* //////////////////////////////////////////////// */
+/* WIREFRME DESIGN */
+
+.wireframe{
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+    margin: 20px 30px;
+    background-color: #57bc9050;
+    border: solid 2px #57bc90;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+.wireframe img {
+    width: 40%;
+    margin-right: 30px;
+}
+
+.wireframe div {
+    width: 60%;
+}
+
+.leftPannel {
+    margin-left: 10%;
+}
+
+.rightPannel {
+    margin-left: 40%;
+}
+
+
+
+
+
+

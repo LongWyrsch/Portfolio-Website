@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Karla;
+    src: url(../Fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(../Fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background: linear-gradient(160deg, rgba(119,201,212,1) 0%, rgba(234,236,233,1) 49%, rgba(87,188,144,1) 100%);
+    min-height: calc(100vh - 140px);
+    margin: 70px 0 0;
+    padding: 20px;
+}
+
+body{
+    margin: 0; 
+}
+
+html {
+    font-family: Karla;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+a {
+    color: #0000FF
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:active {
+    color: #FF0000;
+}
+

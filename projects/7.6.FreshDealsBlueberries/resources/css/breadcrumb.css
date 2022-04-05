@@ -1,0 +1,30 @@
+
+.breadcrumb li{
+    display: inline-block;
+    margin: 0 0;
+    padding: 0 0;
+    /* border: 1px solid red; */
+  }
+  
+  .breadcrumb a {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  
+  
+  .breadcrumb li.location+li.location::before {
+    content: '/';
+    /* border: 1px solid black; */
+    margin: 0 0;
+    padding: 0 0;
+  }
+  
+  .breadcrumb li.attribute {
+    color: grey;
+  }
+  
+  .breadcrumb li.attribute::after {
+    content: 'x';
+    vertical-align: super;
+  }
+  

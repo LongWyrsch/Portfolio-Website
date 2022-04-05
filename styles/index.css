@@ -1,0 +1,99 @@
+#hero {
+    /* position: relative; 
+    top: 70px; */
+    margin-top: 70px;
+    background-image: url("../media/banner.jpg");
+    background-size: cover;
+    background-position: 0px -200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero span {
+    font-size: 200px;
+}
+
+#carousel {
+    height: 500px;
+    background-color: darkgray;
+}
+
+#aboutme {
+    display: flex;
+    padding: 50px 100px;
+    width: 1000px;
+}
+
+#aboutme img{
+    width: 300px;   
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#findme {
+    display: flex;
+    padding: 50px 50px;
+    margin: 50px 100px;
+    background-color: white;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+#socialmedia {
+    margin-right: auto;
+}
+
+#socialmedia img {
+    height: 80px;
+    margin: 20px;
+}
+
+#map {
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+#contactme {
+    height: 300px;
+    padding: 50px 50px;
+    height: auto;
+    margin: 50px 100px;
+    background-color: #015249;
+    color: white;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    padding: 0;
+}
+
+form span,
+label {
+    display: inline-block;
+    margin: 5px;
+    width: 130px;
+}
+
+label[for='message'] {
+    vertical-align: top;
+}
+
+.radioLabel {
+    width: 15px;
+}
+
+input[type='radio'] {
+    margin-right: 20px;
+}
+
+#formRightSide {
+    margin-left: 100px;
+}
+
+main {
+    padding-bottom: 50px;
+}

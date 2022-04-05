@@ -1,0 +1,98 @@
+nav{
+    padding: 10px 40px;
+    margin: 0;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    padding: 0 10px;
+    background-color: lightcyan;
+    border-radius: 5px;
+}
+
+
+/* //////////////////////////////////////////////// */
+/* TOP RIGHT BUTTONS */
+
+nav>ul {
+    float: right;
+    margin: 0;
+    vertical-align:middle;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #57BC90;
+    background-color: #015249;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* nav li:hover {
+    background-color: #015249;
+    color: #77C9D4;
+} */
+
+
+/* //////////////////////////////////////////////// */
+/* BREADCRUMPS */
+
+.breadcrumb {
+    padding: 20px 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.breadcrumb > li {
+    display: inline;
+}
+  
+.breadcrumb li+li::before {
+    padding: 10px;
+    content: ">"
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    color: red;
+}
+
+
+
+/* //////////////////////////////////////////////// */
+/* FOOTER */
+
+footer {
+    /* height: 20px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 70px;
+}

@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: lightsalmon;
+    color: yellow;
+    text-align: center;
+}
+
+nav {
+    background-color: teal;
+    padding-top: 16px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+}
+
+a {
+    color: lightsalmon;
+}
+
+header>div {
+    height: 496px;
+    margin-top: 1rem;
+}
+
+h1 {
+    padding: 2rem;
+    margin-top: 10rem;
+    text-align: center;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: lightsalmon;
+}
+
+#mission>div {
+    margin: 4rem 0;
+    padding: 0 2rem;
+}
+
+#mission span {
+    color: white;
+    margin: 1rem 0;
+    display: block;
+}
+
+#mission a {
+    color: blue;
+}
+
+#mission .photos {
+    display: flex;
+    margin: 4rem 0;
+    padding: 0;
+}
+
+#mission img {
+    width: 100%;
+}
+
+#mission .photos>div {
+    margin: 1.5%;
+}
+
+#quote {
+    background-color: teal;
+    padding: 1rem 1rem 0;
+    margin: 4rem 0;
+    height: 20rem;
+    display: flex;
+    flex-flow: column;
+}
+
+#citation {
+    font-size: 40px;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+#author {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+#gallery .photos {
+    display: flex;
+    margin: 0 0 4rem;
+}
+
+#gallery .photos div {
+    margin: 1.5%;
+}
+
+#gallery .photos img {
+    width: 100%;
+}
+
+.invite {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#churchimg {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 720px) {
+    #gallery .photos,
+    #mission .photos {
+        display: block;        
+    }
+    .photos>div {
+        margin: 0;
+    }
+}
+

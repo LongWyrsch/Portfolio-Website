@@ -1,0 +1,113 @@
+html {
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: underline;
+    color: black;
+}
+
+header li{
+    display: inline-block;
+    font-size: 22px;
+/*     border: 1px solid red; */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+/*     border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+/* ul:not(nth-child(2)) {
+    flex-grow: 2;
+}
+
+ul:not(nth-child(2)) {
+    flex-grow: 1;
+} */
+
+#mission {
+    background-image: url(./images/bannerBackground.jpg);
+    background-size:cover;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+#mission .banner {
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    margin-top: 70px;
+}
+
+#examples {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#examples div {
+    display: flex;
+    align-items: center;
+
+}
+
+#examples h3 {
+    min-width: 240px;
+    padding: 5px;
+}
+
+#examples img {
+    width: 200px;
+    height: 133.33px;
+    padding: 10px;
+}
+
+#team .banner {
+    min-height: 490px;
+    padding-top: 5px;
+    background-image: url(./images/teamBackground.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.banner div {
+    width: 300px;
+    padding: 10px;
+}
+
+#team img {
+    width: 200px;
+}
+
+.name {
+    font-size: 25.7;
+}
+
+.role {
+    font-size: 25;
+}
+
+#contact p {
+    margin: 30.5px;
+}
+
+footer {
+    padding-top: 20px;
+}

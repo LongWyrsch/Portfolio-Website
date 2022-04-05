@@ -1,0 +1,49 @@
+main {
+    margin-top: 70px;
+    /* height: 100vh; */
+    height: calc(100vh - 140px);
+}
+
+
+main>div>div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.iconbox {
+    width: 18vw;
+    height: 18vw;
+    padding: 0;
+    margin: 0 5px;
+    /* border: 1px solid black; */
+}
+
+figure {
+    padding: 5%;
+    margin: 10%;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px #57bc9050 solid;
+    box-shadow: 10px 6px 8px 1px #969696;
+    background-color: #57bc9050;
+}
+
+figure>img {
+    width: 80%;
+}
+
+figcaption {
+    text-align: center;
+}
+figure:hover {
+    background-color: #57bc90;  
+    margin: 8%;
+    width: 84%;
+    height: 84%;
+    box-shadow: 20px 18px 8px 1px #969696;
+}
