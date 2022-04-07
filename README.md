@@ -1,14 +1,14 @@
 
-#My Portfolio
+# My Portfolio
 
-##Description
+## Description
 I have created this website to showcase the newfound skills I will acquire along my journey to becoming a developer.
 
 All information on this website does not carry any meaning. It only serves to showcase appearance and functionality.
 
-##Technologies
-* HTML
-* CSS
+## Technologies
+ * HTML
+ * CSS
 * Javascript
 * Wireframing
 * Design system
@@ -18,24 +18,24 @@ All information on this website does not carry any meaning. It only serves to sh
 	* GitHub
 	* Webhosting
 
-##Logo
+## Logo
 ![My logo](/media/logo.png)
 
-##Link
+## Link
 https://longwyrsch.github.io/Portfolio-Website/
 
-##WBS
+## WBS
 
--[x] List all technology/methods you want use/practice
--[x] List projects you wanna showcase
--[x] Wireframing
--[x] Come up with design system (ruleset for font, colors, etc.)
--[x] Create new repo on GitHub
--[x] Code while pushing commits to Github
--[x] Write Readme using GitHub markdown
+- [x] List all technology/methods you want use/practice
+- [x] List projects you wanna showcase
+- [x] Wireframing
+- [x] Come up with design system (ruleset for font, colors, etc.)
+- [x] Create new repo on GitHub
+- [x] Code while pushing commits to Github
+- [x] Write Readme using GitHub markdown
 
 
-##Example of code
+## Example of code
 In order to practice designing responsive websites, I used 
 
 ```Javascript
@@ -45,7 +45,7 @@ media only screen and (max-width: ) {
 ```
 
 
-##Projects
+## Projects
 Here are the projects showcased in this website:
 Project|Description
 -------|-----------
