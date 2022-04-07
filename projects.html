@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="<a href="">viewport" content="width=device-width, initial-scale=1.</a>0">
+    <meta name=">viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/nav-footer.css">
     <link rel="stylesheet" type="text/css" href="styles/projects.css">
@@ -12,8 +12,15 @@
 <body>
     <header>
         <nav>
-            <img src="./media/logo.png" alt="" class="logo">
-            <ul>
+            <img src="media/logo.png" alt="" class="logo">
+            <ul class="widescreen">
+                <li class="navButtons"><a href="technologies.html">Technologies</a></li>
+                <li class="navButtons"><a href="wbs.html">WBS</a></li>
+                <li class="navButtons"><a href="projects.html">Projects</a></li>
+                <li class="navButtons hamburgerMenu"><a href="#">Menu</a></li>
+            </ul>
+   
+            <ul class="smallscreen">
                 <li class="navButtons"><a href="technologies.html">Technologies</a></li>
                 <li class="navButtons"><a href="wbs.html">WBS</a></li>
                 <li class="navButtons"><a href="projects.html">Projects</a></li>
@@ -25,7 +32,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#"></a>Projects</li>
         </ul>
-        <h1>Projects</h1>
+        <!-- <h1>Projects</h1> -->
         <div class="projectTable">
             <div class="tableHeader project">
                 <div class="name">Project</div>
@@ -65,7 +72,7 @@
                 </div>
             </div>
             <div class="project typography">
-                <div class="typography name"><a href="projects/7.3.Typography/index.html">typography</a></div>
+                <div class="typography name"><a href="projects/7.3.Typography/index.html">Typography</a></div>
                 <div class="typography purpose">CSS typography</div>
                 <div class="typography description">Added various font-families from google fonts to existing text.</div>
                 <div class="typography screenshot">

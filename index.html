@@ -13,7 +13,14 @@
     <header>
         <nav>
             <img src="media/logo.png" alt="" class="logo">
-            <ul>
+            <ul class="widescreen">
+                <li class="navButtons"><a href="technologies.html">Technologies</a></li>
+                <li class="navButtons"><a href="wbs.html">WBS</a></li>
+                <li class="navButtons"><a href="projects.html">Projects</a></li>
+                <li class="navButtons hamburgerMenu"><a href="#">Menu</a></li>
+            </ul>
+   
+            <ul class="smallscreen">
                 <li class="navButtons"><a href="technologies.html">Technologies</a></li>
                 <li class="navButtons"><a href="wbs.html">WBS</a></li>
                 <li class="navButtons"><a href="projects.html">Projects</a></li>
@@ -25,8 +32,12 @@
     </header>
     <main>
         <section>
-            <div id="carousel">
-
+            <div class="carousel">
+                <div class="mask"></div>
+                <h1 class="projectName"></h1>
+                <p class="description"></p>
+                <img class="bracketLeft" src="media/bracketLeft.png" alt="">
+                <img class="bracketRight" src="media/bracketRight.png" alt="">
             </div>
         </section>
         <section id="aboutme">
@@ -41,19 +52,23 @@
         <section id="findme">
             <div id="socialmedia">
                 <h3>Find me online!</h3>
-                <a href="https://www.facebook.com/"><img src="media/facebook-icon.png" alt=""></a>
-                <a href="https://www.instagram.com/"><img src="media/instagram-icon.png" alt=""></a>
-                <a href="https://www.youtube.com/"><img src="media/youtube-icon.png" alt=""></a>
-                <a href="https://www.linkedin.com/"><img src="media/linkedin-icon.png" alt=""></a>
-                <a href="https://github.com/"><img src="media/github-icon.png" alt=""></a>
+                <div id="icons">
+                    <a href="https://www.facebook.com/"><img src="media/facebook-icon.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="media/instagram-icon.png" alt=""></a>
+                    <a href="https://www.youtube.com/"><img src="media/youtube-icon.png" alt=""></a>
+                    <a href="https://www.linkedin.com/"><img src="media/linkedin-icon.png" alt=""></a>
+                    <a href="https://github.com/"><img src="media/github-icon.png" alt=""></a>
+                </div>
             </div>
-            <div id="address">
-                <h3>Contact</h3>
-                <p>123 Fifth Avenue<br>A1B 2C3 New York<br>New York, USA</p>
-                <p>123-456-7890</p>
-                <p>something@mail.com</p>
+            <div id="location">
+                <div id="address">
+                    <h3>Contact</h3>
+                    <p>123 Fifth Avenue<br>A1B 2C3 New York<br>New York, USA</p>
+                    <p>123-456-7890</p>
+                    <p>something@mail.com</p>
+                </div>
+                <a href="https://goo.gl/maps/RkFUc8NEWbbTbx8P8"><img src="media/map.png" alt="" id="map"></a>
             </div>
-            <a href="https://goo.gl/maps/RkFUc8NEWbbTbx8P8"><img src="media/map.png" alt="" id="map"></a>
         </section>
         <section id="contactme">
             <h3>Contact me</h3>
@@ -103,7 +118,7 @@
                     </datalist>
                     <br>
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="90" rows="8"></textarea required>
+                    <textarea name="message" id="message" cols="50" rows="8"></textarea required>
                     <br>
                     <label for="#"></label>
                     <input type="submit" value="Send">
@@ -117,4 +132,5 @@
     </footer>
 </body>
 <script src="scripts/nav.js"></script>
+<script src="scripts/index.js"></script>
 </html>

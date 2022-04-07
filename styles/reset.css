@@ -8,6 +8,11 @@
     src: url(../Fonts/Caveat/Caveat-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Lobster;
+    src: url(../Fonts/Lobster/Lobster-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }

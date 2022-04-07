@@ -19,6 +19,9 @@ nav{
     border-radius: 5px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
 
 /* //////////////////////////////////////////////// */
 /* TOP RIGHT BUTTONS */
@@ -49,6 +52,66 @@ nav a {
     font-size: 1.3rem;
     color: white;
 }
+
+.smallscreen {
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.js-is-hidden {
+    display: none;
+  }
+
+.smallscreen .navButtons {
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 945px) {
+    
+    nav {
+        padding: 1.06% 4.23%;
+        height: 7.4vw;    
+    }
+
+    .logo {
+        height: 5.3vw;
+        width: 17.2vw;
+    }
+
+    .widescreen .navButtons:not(.hamburgerMenu) {
+        display: none;
+    }
+
+    nav li {
+        width: 15.9vw;
+    }
+
+    nav a {
+        padding: 0.53vw;
+    }
+
+    .hamburgerMenu>a {
+        font-size: 2.2vw;
+    }
+    
+    #hero {
+        margin-top: 7.4vw !important;
+    }
+
+}  
+
+@media only screen and (min-width: 945px) {
+    .hamburgerMenu {
+        display: none;
+    }
+
+}  
+
 
 /* nav li:hover {
     background-color: #015249;
@@ -93,6 +156,11 @@ footer {
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     height: 70px;
+}
+
+footer p {
+    width: 80vw;
 }
