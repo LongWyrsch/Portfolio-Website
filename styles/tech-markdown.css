@@ -1,0 +1,45 @@
+p {
+    max-width: 1000px;
+}
+
+
+table {
+    border-spacing: 10px 0;
+}
+
+th {
+    background: #88CCF1;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+td {
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 945px) {
+    #tableLarge{
+        display: none;
+    }   
+    #tableNarrow{
+        display: block;
+    }   
+    table img {
+        width: 80vw;
+    }
+}
+
+@media only screen and (min-width: 945px) {
+    #tableLarge{
+        display: block;
+    }   
+    #tableNarrow{
+        display: none;
+    }   
+    table img {
+        width: 40vw;
+    }
+}
