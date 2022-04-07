@@ -29,7 +29,7 @@ nav{
 nav>ul {
     float: right;
     margin: 0;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
 nav li {
@@ -54,13 +54,14 @@ nav a {
 }
 
 .smallscreen {
-    width: 200px;
+    width: auto;
     display: none;
     position: absolute;
     top: 60px;
     right: 5px;
     margin: 0;
     padding: 0;
+
 }
 
 .js-is-hidden {
@@ -89,17 +90,19 @@ nav a {
 
     nav li {
         width: 15.9vw;
+        display:block;
     }
 
     nav a {
         padding: 0.53vw;
+        font-size: 2.2vw;
     }
 
     .hamburgerMenu>a {
         font-size: 2.2vw;
     }
     
-    #hero {
+    main {
         margin-top: 7.4vw !important;
     }
 

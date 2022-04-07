@@ -36,8 +36,19 @@ h1 {
     width: 50%;
     margin: 20px 30px;
     padding: 0;
-    font-size: 32px;
+    font-size: 1.5vw;
     /* border: black 1px solid; */
+}
+
+@media screen and (max-width: 945px) {
+    #intro {
+        font-size: 16px;
+        width: auto;
+    }
+}
+
+h1 {
+    font-size: 5vw;
 }
 
 #intro p {
@@ -50,13 +61,14 @@ h1 {
 .wireframe{
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
     width: 60%;
     margin: 20px 30px;
     background-color: #57bc9050;
     border: solid 2px #57bc90;
     padding: 20px;
     border-radius: 10px;
-    font-size: 32px;
+    font-size: 1.5vw;;
 }
 
 .wireframe img {
@@ -76,6 +88,22 @@ h1 {
     margin-left: 40%;
 }
 
+
+@media screen and (max-width: 945px) {
+    .wireframe{
+        font-size: 16px;
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .leftPannel {
+        margin-left: 0;
+    }
+    
+    .rightPannel {
+        margin-left: 0;
+    }
+
+}
 
 
 

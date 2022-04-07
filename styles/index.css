@@ -1,7 +1,6 @@
 #hero {
-    /* position: absolute; 
-    top: 70px; */
-    margin-top: 70px;
+
+    margin: 0 0 5vw;
     background-image: url("../media/banner.jpg");
     background-size: cover;
     background-position: 50% 10%;
@@ -15,11 +14,6 @@
     font-size: 15vw;
     font-family: Lobster;
     margin: 0;
-}
-
-main {
-    margin-top: 0;
-    padding-bottom: 50px;
 }
 
 .carousel {

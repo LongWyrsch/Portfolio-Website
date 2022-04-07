@@ -12,6 +12,12 @@ main>div {
     align-items: flex-start;
 }
 
+@media screen and (max-width: 1280px) {
+    main>div {
+        flex-wrap: wrap;
+    }
+}
+
 main>div>div {
     padding: 5px;
 }
@@ -38,6 +44,12 @@ div.typography {
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1280px) {
+    div.typography {
+        max-width: 100%;
+    }
 }
 
 div.typography>h1 {
